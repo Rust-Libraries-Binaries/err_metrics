@@ -1,1 +1,7 @@
-/target
+# Ignore the compiled output
+/target/
+
+# Ignore editor and OS-specific files
+*.swp
+.DS_Store
+Thumbs.db

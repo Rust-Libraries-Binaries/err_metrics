@@ -2,5 +2,12 @@
 name = "err_metrics"
 version = "0.1.0"
 edition = "2021"
+description = "A Rust library and tool for tracking and exposing error metrics in Prometheus format, with asynchronous support using Tokio and an HTTP server powered by Warp."
+authors = ["Ben Santora <bensatlantik@gmail.com>"]
+license = "MIT"
 
 [dependencies]
+prometheus = "0.13"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"  # For the HTTP server to expose metrics
+
