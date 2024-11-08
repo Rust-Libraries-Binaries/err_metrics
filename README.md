@@ -1,3 +1,7 @@
+## Archived Repository
+
+**This repository was a gift from me to the Rust and open-source community. It is no longer actively maintained and has been archived. Feel free to fork and continue development on your own.**
+
 # err_metrics
 
 `err_metrics` is a Rust library and command-line tool for tracking and exposing error metrics in Prometheus format. It uses asynchronous support from Tokio and serves metrics over HTTP using Warp, making it easy to integrate with observability platforms like Prometheus and Grafana.
@@ -78,4 +82,4 @@ Tokio: For async runtime support.
 Warp: For the fast and easy-to-use HTTP server.
 
 ##Author
-Ben Santora (<bensatlantik@gmail.com>)
+Ben Santora 
